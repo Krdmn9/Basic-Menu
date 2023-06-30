@@ -1,0 +1,6 @@
+.item-container {
+  display: flex; /* Öğelerin yatayda sıralanmasını sağlayın */
+  flex-wrap: wrap; /* Yeni ürünlerin alt satıra geçmesini sağlayın */
+  justify-content: center; /* Öğeleri merkez hizalayın */
+  margin-bottom: 20px;
+}

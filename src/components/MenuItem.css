@@ -1,0 +1,39 @@
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dddddd;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    height: 350px;
+  }
+  
+  .menu-item img {
+    max-width: 80%;
+    height: 70%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-name {
+    display: flex;
+    float: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-price {
+    display: flex;
+    margin-left: 300px;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  

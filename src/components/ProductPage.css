@@ -1,0 +1,33 @@
+.product-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(225, 225, 225);
+  margin: 5px;
+}
+
+.menu-item-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-item-image {
+  width: 60%;
+  max-height: 100%;
+}
+
+.add-basket-button {
+  width: 150px;
+  height: 60px;
+  background-color: green;
+  color: white;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* This is the new line */
+  margin-left: 50%;
+}

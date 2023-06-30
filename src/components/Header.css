@@ -1,0 +1,29 @@
+#header {
+  background-color: #808080;
+  padding: 20px;
+  margin: 5px;
+}
+#header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#header #title {
+  font-size: 30px;
+  color: #000;
+}
+
+#header #about-us {
+  float: left;
+  margin-left: 930px;
+  margin-top: 8px;
+}
+
+#header #basket {
+  color: #032900;
+  float: right;
+  margin-left: 90px;
+  margin-top: 8px;
+}

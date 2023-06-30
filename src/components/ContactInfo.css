@@ -1,0 +1,18 @@
+#contact-info-box {
+    background-color: #c8c7c7;
+    margin: 6px;
+    display: flex;
+    padding: 10px;
+    height: 80px;
+    align-items: center;
+}
+
+#contact-info-box div {
+    margin-left: 100px;
+    align-items: center;
+}
+
+.contact-icon {
+    max-width: 30px;
+    margin-right: 10px;
+}
